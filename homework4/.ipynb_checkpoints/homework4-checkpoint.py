@@ -92,7 +92,7 @@ def create_list():
 numbers_5x5 = create_list()
 print (numbers_5x5)
 
-def replace_multiples_of_3(matrix):
+def replace_mutltiples_of_3(matrix):
     new_matrix = []
     for row in matrix:
         new_row = []
@@ -104,7 +104,7 @@ def replace_multiples_of_3(matrix):
         new_matrix.append(new_row)
     return new_matrix
 
-updated = replace_multiples_of_3(numbers_5x5)
+updated = replace_mutltiples_of_3(numbers_5x5)
 print(updated)
 
 def sum_not_question(matrix):
